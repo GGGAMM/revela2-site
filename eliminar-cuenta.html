@@ -1,87 +1,122 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-page="delete">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eliminar Cuenta - Revela2</title>
+    <link rel="icon" type="image/png" href="images/revela2-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="main-header">
-        <a href="index.html" class="logo-link"><img src="images/revela2-logo.png" alt="Revela2" class="logo-img"></a>
-        <nav class="main-nav">
-            <a href="terminos-de-uso.html">Términos de Uso</a>
-            <a href="politica-de-privacidad.html">Política de Privacidad</a>
-            <a href="mailto:usarevela2@gmail.com">Contáctanos</a>
-        </nav>
+    <header class="site-header">
+        <div class="header-bar">
+            <a href="index.html" class="brand">
+                <img src="images/revela2-logo.png" alt="Revela2">
+                <span>Revela2</span>
+            </a>
+            <div class="header-end">
+                <div class="lang-switch" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+                    <button type="button" data-set-lang="es" aria-pressed="true">ES</button>
+                    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+                    <button type="button" data-set-lang="pt" aria-pressed="false">PT</button>
+                </div>
+                <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-i18n-attr="aria-label:nav.open">
+                    <span></span>
+                </button>
+            </div>
+            <nav class="site-nav">
+                <a href="terminos-de-uso.html" data-i18n="nav.terms">Términos</a>
+                <a href="politica-de-privacidad.html" data-i18n="nav.privacy">Privacidad</a>
+                <a href="mailto:usarevela2@gmail.com" data-i18n="nav.contact">Contacto</a>
+            </nav>
+        </div>
     </header>
     <main class="content-page">
-        <h1>Eliminar Cuenta y Datos</h1>
-        <p><strong>Última actualización: 4 de febrero de 2026</strong></p>
-        
-        <h2>Solicitud de Eliminación de Cuenta</h2>
-        <p>Si deseas eliminar tu cuenta de Revela2 y todos los datos asociados, puedes hacerlo siguiendo estos pasos:</p>
-        
-        <div class="content-box" style="background: #1a1a1a; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #333;">
-            <h3>Pasos para Eliminar tu Cuenta:</h3>
+        <h1 data-i18n="delete.h1">Eliminar Cuenta y Datos</h1>
+        <p><strong data-i18n="delete.updated">Última actualización: 4 de febrero de 2026</strong></p>
+
+        <h2 data-i18n="delete.h2request">Solicitud de Eliminación de Cuenta</h2>
+        <p data-i18n="delete.p1">Si deseas eliminar tu cuenta de Revela2 y todos los datos asociados, puedes hacerlo siguiendo estos pasos:</p>
+
+        <div class="delete-box">
+            <h3 data-i18n="delete.h3steps">Pasos para Eliminar tu Cuenta:</h3>
             <ol style="line-height: 1.8;">
-                <li><strong>Envía un correo electrónico</strong> a <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> con el asunto "Solicitud de Eliminación de Cuenta"</li>
-                <li><strong>Incluye la siguiente información</strong> en tu solicitud:
+                <li data-i18n-html="delete.step1"><strong>Envía un correo electrónico</strong> a <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> con el asunto "Solicitud de Eliminación de Cuenta"</li>
+                <li>
+                    <span data-i18n-html="delete.step2"><strong>Incluye la siguiente información</strong> en tu solicitud:</span>
                     <ul style="margin-top: 10px;">
-                        <li>Tu dirección de correo electrónico asociada a la cuenta</li>
-                        <li>Una confirmación de que deseas eliminar permanentemente tu cuenta y todos los datos asociados</li>
+                        <li data-i18n="delete.liEmail">Tu dirección de correo electrónico asociada a la cuenta</li>
+                        <li data-i18n="delete.liConfirm">Una confirmación de que deseas eliminar permanentemente tu cuenta y todos los datos asociados</li>
                     </ul>
                 </li>
-                <li><strong>Espera nuestra confirmación</strong> - Procesaremos tu solicitud dentro de 30 días hábiles</li>
+                <li data-i18n-html="delete.step3"><strong>Espera nuestra confirmación</strong> - Procesaremos tu solicitud dentro de 30 días hábiles</li>
             </ol>
         </div>
 
-        <h2>Datos que se Eliminarán</h2>
-        <p>Al eliminar tu cuenta, se eliminarán permanentemente los siguientes datos que guardamos:</p>
+        <h2 data-i18n="delete.h2removed">Datos que se Eliminarán</h2>
+        <p data-i18n="delete.pRemoved">Al eliminar tu cuenta, se eliminarán permanentemente los siguientes datos que guardamos:</p>
         <ul style="line-height: 1.8;">
-            <li>Tu dirección de correo electrónico</li>
-            <li>Tu nombre (si lo proporcionaste al registrarte o al iniciar sesión con Apple o Google)</li>
-            <li>Datos de autenticación y sesiones asociados a tu cuenta</li>
+            <li data-i18n="delete.liEmailData">Tu dirección de correo electrónico</li>
+            <li data-i18n="delete.liName">Tu nombre (si lo proporcionaste al registrarte o al iniciar sesión con Apple o Google)</li>
+            <li data-i18n="delete.liAuth">Datos de autenticación y sesiones asociados a tu cuenta</li>
         </ul>
 
-        <h2>Datos que se Pueden Retener</h2>
-        <p>Por razones legales y operativas, podemos retener cierta información por períodos específicos:</p>
+        <h2 data-i18n="delete.h2kept">Datos que se Pueden Retener</h2>
+        <p data-i18n="delete.pKept">Por razones legales y operativas, podemos retener cierta información por períodos específicos:</p>
         <ul style="line-height: 1.8;">
-            <li><strong>Información de transacciones:</strong> Si realizaste compras o suscripciones en la app, podemos retener la información requerida por ley (por ejemplo, fines fiscales)</li>
-            <li><strong>Registros de seguridad:</strong> Podemos mantener registros mínimos de actividades sospechosas o fraudulentas para proteger nuestros servicios</li>
-            <li><strong>Datos anonimizados:</strong> Podemos conservar datos agregados y anonimizados que no identifiquen personalmente a ningún usuario</li>
+            <li data-i18n-html="delete.liTx"><strong>Información de transacciones:</strong> Si realizaste compras o suscripciones en la app, podemos retener la información requerida por ley (por ejemplo, fines fiscales)</li>
+            <li data-i18n-html="delete.liSecurity"><strong>Registros de seguridad:</strong> Podemos mantener registros mínimos de actividades sospechosas o fraudulentas para proteger nuestros servicios</li>
+            <li data-i18n-html="delete.liAnon"><strong>Datos anonimizados:</strong> Podemos conservar datos agregados y anonimizados que no identifiquen personalmente a ningún usuario</li>
         </ul>
 
-        <h2>Período de Retención</h2>
-        <p>Después de recibir tu solicitud de eliminación:</p>
+        <h2 data-i18n="delete.h2period">Período de Retención</h2>
+        <p data-i18n="delete.pPeriod">Después de recibir tu solicitud de eliminación:</p>
         <ul style="line-height: 1.8;">
-            <li>Procesaremos la eliminación de tu cuenta y datos personales dentro de <strong>30 días hábiles</strong></li>
-            <li>Los datos que debemos retener por razones legales se conservarán según lo requiera la ley aplicable</li>
-            <li>Una vez eliminados, los datos no se pueden recuperar</li>
+            <li data-i18n-html="delete.li30">Procesaremos la eliminación de tu cuenta y datos personales dentro de <strong>30 días hábiles</strong></li>
+            <li data-i18n="delete.liLegal">Los datos que debemos retener por razones legales se conservarán según lo requiera la ley aplicable</li>
+            <li data-i18n="delete.liGone">Una vez eliminados, los datos no se pueden recuperar</li>
         </ul>
 
-        <h2>Información Adicional</h2>
-        <p>Si tienes preguntas sobre el proceso de eliminación de cuenta o sobre qué datos se eliminarán o retendrán, puedes contactarnos en:</p>
+        <h2 data-i18n="delete.h2more">Información Adicional</h2>
+        <p data-i18n="delete.pMore">Si tienes preguntas sobre el proceso de eliminación de cuenta o sobre qué datos se eliminarán o retendrán, puedes contactarnos en:</p>
         <p style="margin: 20px 0;">
-            <strong>Email:</strong> <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a><br>
-            <strong>Dirección:</strong> GGGAMM Enterprises LLC<br>
+            <strong data-i18n="delete.email">Email:</strong> <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a><br>
+            <strong data-i18n="delete.address">Dirección:</strong> GGGAMM Enterprises LLC<br>
             1111B S Governors Ave, STE 37552<br>
             Dover, DE 19904, United States
         </p>
 
-        <div class="content-box" style="background: #2a2500; padding: 15px; border-radius: 8px; margin: 30px 0; border-left: 4px solid #ffc107; color: #e6e0c0;">
-            <p style="margin: 0;"><strong>⚠️ Importante:</strong> La eliminación de tu cuenta es permanente e irreversible. Asegúrate de que realmente deseas eliminar tu cuenta antes de enviar la solicitud.</p>
+        <div class="delete-warn">
+            <p style="margin: 0;" data-i18n-html="delete.warn"><strong>⚠️ Importante:</strong> La eliminación de tu cuenta es permanente e irreversible. Asegúrate de que realmente deseas eliminar tu cuenta antes de enviar la solicitud.</p>
         </div>
 
         <div style="margin-top: 40px; text-align: center;">
-            <a href="mailto:usarevela2@gmail.com?subject=Solicitud de Eliminación de Cuenta" style="display: inline-block; background: #ff8c42; color: #000; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold;">Solicitar Eliminación de Cuenta</a>
+            <a class="delete-cta" href="mailto:usarevela2@gmail.com?subject=Solicitud de Eliminación de Cuenta" data-delete-mail data-i18n="delete.cta">Solicitar Eliminación de Cuenta</a>
         </div>
     </main>
-    <footer class="main-footer">
-        <a href="mailto:usarevela2@gmail.com">Contacto</a>
-        <a href="politica-de-privacidad.html">Política de Privacidad</a>
-        <a href="terminos-de-uso.html">Términos de Uso</a>
-        <div class="footer-operator">Operated by GGGAMM Enterprises LLC</div>
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <div class="footer-links">
+                <a href="politica-de-privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="terminos-de-uso.html" data-i18n="footer.terms">Términos</a>
+                <a href="eliminar-cuenta.html" data-i18n="footer.delete">Eliminar cuenta</a>
+                <a href="mailto:usarevela2@gmail.com" data-i18n="footer.contact">Contacto</a>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/usalab.ia/" aria-label="Instagram" target="_blank" rel="noopener">
+                    <img src="images/instagram-svgrepo-com.svg" alt="">
+                </a>
+                <a href="https://www.tiktok.com/@usalab.ia?lang=es" data-social="tiktok" aria-label="TikTok" target="_blank" rel="noopener">
+                    <img src="images/logo-tiktok-svgrepo-com.svg" alt="">
+                </a>
+            </div>
+            <p class="copyright" data-i18n="footer.copy">Propiedad y operado por GGGAM Enterprises LLC</p>
+        </div>
     </footer>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

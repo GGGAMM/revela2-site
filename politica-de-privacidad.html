@@ -1,19 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-page="privacy">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Política de Privacidad - Revela2</title>
+    <link rel="icon" type="image/png" href="images/revela2-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="main-header">
-        <a href="index.html" class="logo-link"><img src="images/revela2-logo.png" alt="Revela2" class="logo-img"></a>
-        <nav class="main-nav">
-            <a href="terminos-de-uso.html">Términos de Uso</a>
-            <a href="politica-de-privacidad.html">Política de Privacidad</a>
-            <a href="mailto:usarevela2@gmail.com">Contáctanos</a>
-        </nav>
+    <header class="site-header">
+        <div class="header-bar">
+            <a href="index.html" class="brand">
+                <img src="images/revela2-logo.png" alt="Revela2">
+                <span>Revela2</span>
+            </a>
+            <div class="header-end">
+                <div class="lang-switch" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+                    <button type="button" data-set-lang="es" aria-pressed="true">ES</button>
+                    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+                    <button type="button" data-set-lang="pt" aria-pressed="false">PT</button>
+                </div>
+                <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-i18n-attr="aria-label:nav.open">
+                    <span></span>
+                </button>
+            </div>
+            <nav class="site-nav">
+                <a href="terminos-de-uso.html" data-i18n="nav.terms">Términos</a>
+                <a href="politica-de-privacidad.html" aria-current="page" data-i18n="nav.privacy">Privacidad</a>
+                <a href="mailto:usarevela2@gmail.com" data-i18n="nav.contact">Contacto</a>
+            </nav>
+        </div>
     </header>
     <main class="content-page">
         <h1>PRIVACY POLICY</h1>
@@ -504,11 +523,26 @@ United States
 Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please fill out and submit a data subject access request.
         </div>
     </main>
-    <footer class="main-footer">
-        <a href="mailto:usarevela2@gmail.com">Contacto</a>
-        <a href="politica-de-privacidad.html">Política de Privacidad</a>
-        <a href="terminos-de-uso.html">Términos de Uso</a>
-        <div class="footer-operator">Operated by GGGAMM Enterprises LLC</div>
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <div class="footer-links">
+                <a href="politica-de-privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="terminos-de-uso.html" data-i18n="footer.terms">Términos</a>
+                <a href="eliminar-cuenta.html" data-i18n="footer.delete">Eliminar cuenta</a>
+                <a href="mailto:usarevela2@gmail.com" data-i18n="footer.contact">Contacto</a>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/usalab.ia/" aria-label="Instagram" target="_blank" rel="noopener">
+                    <img src="images/instagram-svgrepo-com.svg" alt="">
+                </a>
+                <a href="https://www.tiktok.com/@usalab.ia?lang=es" data-social="tiktok" aria-label="TikTok" target="_blank" rel="noopener">
+                    <img src="images/logo-tiktok-svgrepo-com.svg" alt="">
+                </a>
+            </div>
+            <p class="copyright" data-i18n="footer.copy">Propiedad y operado por GGGAM Enterprises LLC</p>
+        </div>
     </footer>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html> 

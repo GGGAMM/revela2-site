@@ -1,50 +1,172 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-page="home">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revela2</title>
+    <title>Revela2 — Verdades sin Filtro</title>
     <link rel="icon" type="image/png" href="images/revela2-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="main-header">
-        <a href="index.html" class="logo-link">
-            <img src="images/revela2-logo.png" alt="Revela2" class="logo-img">
-        </a>
-        <nav class="main-nav">
-            <a href="terminos-de-uso.html">Términos de Uso</a>
-            <a href="politica-de-privacidad.html">Política de Privacidad</a>
-            <a href="mailto:usarevela2@gmail.com">Contáctanos</a>
-        </nav>
+    <header class="site-header">
+        <div class="header-bar">
+            <a href="index.html" class="brand">
+                <img src="images/revela2-logo.png" alt="Revela2">
+                <span>Revela2</span>
+            </a>
+            <div class="header-end">
+                <div class="lang-switch" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+                    <button type="button" data-set-lang="es" aria-pressed="true">ES</button>
+                    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+                    <button type="button" data-set-lang="pt" aria-pressed="false">PT</button>
+                </div>
+                <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-i18n-attr="aria-label:nav.open">
+                    <span></span>
+                </button>
+            </div>
+            <nav class="site-nav">
+                <a href="terminos-de-uso.html" data-i18n="nav.terms">Términos</a>
+                <a href="politica-de-privacidad.html" data-i18n="nav.privacy">Privacidad</a>
+                <a href="mailto:usarevela2@gmail.com" data-i18n="nav.contact">Contacto</a>
+            </nav>
+        </div>
     </header>
-    <main class="center-content">
-        <div class="app-logo-container">
-            <img src="images/revela2-logo.png" alt="Revela2" class="app-logo">
-        </div>
-        <div class="subtitle">Verdades sin Filtro</div>
-        <div class="app-badges-container">
-            <a href="#" class="app-store-link">
-                <img src="images/Download_on_the_App_Store_Badge_ES_RGB_wht_100217.png" alt="Consíguelo en el App Store" class="app-store-badge">
-            </a>
-            <a href="#" class="google-play-link">
-                <img src="images/GetItOnGooglePlay_Badge_Print_color_Spanish.png" alt="Get it on Google Play" class="google-play-badge">
-            </a>
-        </div>
-        <div class="social-icons">
-            <a href="https://www.instagram.com/usalab.ia/" aria-label="Instagram" target="_blank" rel="noopener">
-                <img src="images/instagram-svgrepo-com.svg" alt="Instagram" class="icon">
-            </a>
-            <a href="https://www.tiktok.com/@usalab.ia?lang=es" aria-label="TikTok" target="_blank" rel="noopener">
-                <img src="images/logo-tiktok-svgrepo-com.svg" alt="TikTok" class="icon">
-            </a>
-        </div>
+
+    <main>
+        <section class="wrap hero">
+            <div>
+                <p class="eyebrow" data-i18n="hero.eyebrow">VERDADES SIN FILTRO</p>
+                <h1 data-i18n="hero.title">Preguntas que encienden la conversación</h1>
+                <p class="lede" data-i18n="hero.lede">El juego de cartas para parejas y amigos. Elige un pack, saca una carta y deja que empiece la charla de verdad.</p>
+                <div class="cta-row">
+                    <a class="store-badge" data-store="apple" href="https://apps.apple.com/es/app/id6779723504" target="_blank" rel="noopener noreferrer">
+                        <img src="images/badges/apple-es.svg" data-badge="apple" alt="Consíguelo en el App Store" data-i18n-attr="alt:store.app">
+                    </a>
+                    <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.revela2.Revela2" target="_blank" rel="noopener noreferrer">
+                        <img src="images/badges/play-es.png" data-badge="play" alt="Consíguelo en Google Play" data-i18n-attr="alt:store.play">
+                    </a>
+                </div>
+            </div>
+            <div class="mock-card">
+                <div class="phone" role="region" aria-roledescription="carrusel" aria-label="Capturas de Revela2" data-i18n-attr="aria-roledescription:phone.role,aria-label:phone.label">
+                    <div class="phone-track">
+                        <div class="phone-slide">
+                            <img src="images/screenshots/1.jpg" data-screenshot="1" alt="Pantalla de inicio de Revela2" data-i18n-attr="alt:shot.1">
+                        </div>
+                        <div class="phone-slide">
+                            <img src="images/screenshots/2.jpg" data-screenshot="2" alt="Pack clásico de Revela2" data-i18n-attr="alt:shot.2">
+                        </div>
+                        <div class="phone-slide">
+                            <img src="images/screenshots/3.jpg" data-screenshot="3" alt="Pack picante de Revela2" data-i18n-attr="alt:shot.3">
+                        </div>
+                        <div class="phone-slide">
+                            <img src="images/screenshots/4.jpg" data-screenshot="4" alt="Pack de pareja de Revela2" data-i18n-attr="alt:shot.4">
+                        </div>
+                        <div class="phone-slide">
+                            <img src="images/screenshots/5.jpg" data-screenshot="5" alt="Pack de grupo de Revela2" data-i18n-attr="alt:shot.5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrap section">
+            <div class="section-head">
+                <h2 data-i18n="packs.title">Elige un pack</h2>
+                <p data-i18n="packs.sub">Cinco formas reales de jugar. Tú decides el tono de la noche.</p>
+            </div>
+            <div class="modes" role="list">
+                <button class="mode" type="button" data-mode="classic">
+                    <strong data-i18n="pack.classic">Clásico</strong>
+                    <span data-i18n="pack.classicBody">Preguntas para conectar más.</span>
+                </button>
+                <button class="mode" type="button" data-mode="hot">
+                    <strong data-i18n="pack.hot">Picante</strong>
+                    <span data-i18n="pack.hotBody">Lo más atrevido que te gustaría probar.</span>
+                </button>
+                <button class="mode is-active" type="button" data-mode="couple">
+                    <strong data-i18n="pack.couple">Pareja</strong>
+                    <span data-i18n="pack.coupleBody">Debates y verdades para dos.</span>
+                </button>
+                <button class="mode" type="button" data-mode="deep">
+                    <strong data-i18n="pack.deep">Profundas</strong>
+                    <span data-i18n="pack.deepBody">Lo que importa de verdad en la relación.</span>
+                </button>
+                <button class="mode" type="button" data-mode="group">
+                    <strong data-i18n="pack.group">Grupo</strong>
+                    <span data-i18n="pack.groupBody">¿Quién del grupo es más probable que...?</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="wrap section">
+            <div class="section-head">
+                <h2 data-i18n="faq.title">Preguntas frecuentes</h2>
+                <p data-i18n="faq.sub">Lo esencial para empezar a jugar con confianza.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button type="button" data-i18n="faq.q1">¿Cómo se juega?</button>
+                    <div class="faq-body" data-i18n="faq.a1">Elige un pack, saca una carta y lee la pregunta en voz alta. Hablen, debatan y pasen a la siguiente cuando quieran.</div>
+                </div>
+                <div class="faq-item">
+                    <button type="button" data-i18n="faq.q2">¿Es solo para parejas?</button>
+                    <div class="faq-body" data-i18n="faq.a2">Hay packs para parejas y también para grupos de amigos. El pack Grupo está pensado para noches con más de dos.</div>
+                </div>
+                <div class="faq-item">
+                    <button type="button" data-i18n="faq.q3">¿En qué idiomas está?</button>
+                    <div class="faq-body" data-i18n="faq.a3">Revela2 está en español, inglés y portugués (Brasil). La app sigue el idioma de tu teléfono.</div>
+                </div>
+                <div class="faq-item">
+                    <button type="button" data-i18n="faq.q4">¿Hay suscripción?</button>
+                    <div class="faq-body" data-i18n="faq.a4">Sí. Revela2 Pro desbloquea todos los packs. Puedes cancelar cuando quieras desde la tienda de tu dispositivo.</div>
+                </div>
+                <div class="faq-item">
+                    <button type="button" data-i18n="faq.q5">¿Qué pasa con mi privacidad?</button>
+                    <div class="faq-body" data-i18n-html="faq.a5">No publicamos tus partidas. Si tienes dudas, escríbenos a <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> o revisa la <a href="politica-de-privacidad.html">política de privacidad</a>.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrap section">
+            <div class="cta-band">
+                <h2 data-i18n="cta.title">Descarga Revela2 y saca la primera carta</h2>
+                <p data-i18n="cta.sub">Disponible en iOS y Android. Elige un pack y empieza el debate esta noche.</p>
+                <div class="cta-row">
+                    <a class="store-badge" data-store="apple" href="https://apps.apple.com/es/app/id6779723504" target="_blank" rel="noopener noreferrer">
+                        <img src="images/badges/apple-es.svg" data-badge="apple" alt="Consíguelo en el App Store" data-i18n-attr="alt:store.app">
+                    </a>
+                    <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.revela2.Revela2" target="_blank" rel="noopener noreferrer">
+                        <img src="images/badges/play-es.png" data-badge="play" alt="Consíguelo en Google Play" data-i18n-attr="alt:store.play">
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="main-footer">
-        <a href="mailto:usarevela2@gmail.com">Contacto</a>
-        <a href="politica-de-privacidad.html">Política de Privacidad</a>
-        <a href="terminos-de-uso.html">Términos de Uso</a>
-        <div class="footer-operator">Operated by GGGAMM Enterprises LLC</div>
+
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <div class="footer-links">
+                <a href="politica-de-privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+                <a href="terminos-de-uso.html" data-i18n="footer.terms">Términos</a>
+                <a href="eliminar-cuenta.html" data-i18n="footer.delete">Eliminar cuenta</a>
+                <a href="mailto:usarevela2@gmail.com" data-i18n="footer.contact">Contacto</a>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/usalab.ia/" aria-label="Instagram" target="_blank" rel="noopener">
+                    <img src="images/instagram-svgrepo-com.svg" alt="">
+                </a>
+                <a href="https://www.tiktok.com/@usalab.ia?lang=es" data-social="tiktok" aria-label="TikTok" target="_blank" rel="noopener">
+                    <img src="images/logo-tiktok-svgrepo-com.svg" alt="">
+                </a>
+            </div>
+            <p class="copyright" data-i18n="footer.copy">Propiedad y operado por GGGAM Enterprises LLC</p>
+        </div>
     </footer>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
 </body>
-</html> 
+</html>

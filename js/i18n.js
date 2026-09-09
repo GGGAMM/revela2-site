@@ -29,7 +29,6 @@
       "meta.home": "Revela2 — Verdades sin Filtro",
       "meta.terms": "Términos de Uso - Revela2",
       "meta.privacy": "Política de Privacidad - Revela2",
-      "meta.delete": "Eliminar Cuenta - Revela2",
       "nav.terms": "Términos",
       "nav.privacy": "Privacidad",
       "nav.contact": "Contacto",
@@ -83,62 +82,13 @@
         "Disponible en iOS y Android. Elige un pack y empieza el debate esta noche.",
       "footer.privacy": "Privacidad",
       "footer.terms": "Términos",
-      "footer.delete": "Eliminar cuenta",
       "footer.contact": "Contacto",
       "footer.copy": "Propiedad y operado por GGGAM Enterprises LLC",
-      "delete.h1": "Eliminar Cuenta y Datos",
-      "delete.updated": "Última actualización: 4 de febrero de 2026",
-      "delete.h2request": "Solicitud de Eliminación de Cuenta",
-      "delete.p1":
-        "Si deseas eliminar tu cuenta de Revela2 y todos los datos asociados, puedes hacerlo siguiendo estos pasos:",
-      "delete.h3steps": "Pasos para Eliminar tu Cuenta:",
-      "delete.step1":
-        '<strong>Envía un correo electrónico</strong> a <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> con el asunto "Solicitud de Eliminación de Cuenta"',
-      "delete.step2":
-        "<strong>Incluye la siguiente información</strong> en tu solicitud:",
-      "delete.liEmail": "Tu dirección de correo electrónico asociada a la cuenta",
-      "delete.liConfirm":
-        "Una confirmación de que deseas eliminar permanentemente tu cuenta y todos los datos asociados",
-      "delete.step3":
-        "<strong>Espera nuestra confirmación</strong> - Procesaremos tu solicitud dentro de 30 días hábiles",
-      "delete.h2removed": "Datos que se Eliminarán",
-      "delete.pRemoved":
-        "Al eliminar tu cuenta, se eliminarán permanentemente los siguientes datos que guardamos:",
-      "delete.liEmailData": "Tu dirección de correo electrónico",
-      "delete.liName":
-        "Tu nombre (si lo proporcionaste al registrarte o al iniciar sesión con Apple o Google)",
-      "delete.liAuth": "Datos de autenticación y sesiones asociados a tu cuenta",
-      "delete.h2kept": "Datos que se Pueden Retener",
-      "delete.pKept":
-        "Por razones legales y operativas, podemos retener cierta información por períodos específicos:",
-      "delete.liTx":
-        "<strong>Información de transacciones:</strong> Si realizaste compras o suscripciones en la app, podemos retener la información requerida por ley (por ejemplo, fines fiscales)",
-      "delete.liSecurity":
-        "<strong>Registros de seguridad:</strong> Podemos mantener registros mínimos de actividades sospechosas o fraudulentas para proteger nuestros servicios",
-      "delete.liAnon":
-        "<strong>Datos anonimizados:</strong> Podemos conservar datos agregados y anonimizados que no identifiquen personalmente a ningún usuario",
-      "delete.h2period": "Período de Retención",
-      "delete.pPeriod": "Después de recibir tu solicitud de eliminación:",
-      "delete.li30":
-        "Procesaremos la eliminación de tu cuenta y datos personales dentro de <strong>30 días hábiles</strong>",
-      "delete.liLegal":
-        "Los datos que debemos retener por razones legales se conservarán según lo requiera la ley aplicable",
-      "delete.liGone": "Una vez eliminados, los datos no se pueden recuperar",
-      "delete.h2more": "Información Adicional",
-      "delete.pMore":
-        "Si tienes preguntas sobre el proceso de eliminación de cuenta o sobre qué datos se eliminarán o retendrán, puedes contactarnos en:",
-      "delete.email": "Email:",
-      "delete.address": "Dirección:",
-      "delete.warn":
-        "<strong>⚠️ Importante:</strong> La eliminación de tu cuenta es permanente e irreversible. Asegúrate de que realmente deseas eliminar tu cuenta antes de enviar la solicitud.",
-      "delete.cta": "Solicitar Eliminación de Cuenta",
-      "delete.mailSubject": "Solicitud de Eliminación de Cuenta",
     },
     en: {
       "meta.home": "Revela2 — Unfiltered Truths",
       "meta.terms": "Terms of Use - Revela2",
       "meta.privacy": "Privacy Policy - Revela2",
-      "meta.delete": "Delete Account - Revela2",
       "nav.terms": "Terms",
       "nav.privacy": "Privacy",
       "nav.contact": "Contact",
@@ -192,61 +142,13 @@
         "Available on iOS and Android. Pick a pack and start the debate tonight.",
       "footer.privacy": "Privacy",
       "footer.terms": "Terms",
-      "footer.delete": "Delete account",
       "footer.contact": "Contact",
       "footer.copy": "Owned and operated by GGGAM Enterprises LLC",
-      "delete.h1": "Delete Account and Data",
-      "delete.updated": "Last updated: February 4, 2026",
-      "delete.h2request": "Account Deletion Request",
-      "delete.p1":
-        "If you want to delete your Revela2 account and all associated data, follow these steps:",
-      "delete.h3steps": "How to delete your account:",
-      "delete.step1":
-        '<strong>Send an email</strong> to <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> with the subject "Account Deletion Request"',
-      "delete.step2": "<strong>Include the following</strong> in your request:",
-      "delete.liEmail": "The email address linked to the account",
-      "delete.liConfirm":
-        "Confirmation that you want to permanently delete your account and all associated data",
-      "delete.step3":
-        "<strong>Wait for our confirmation</strong> — we will process your request within 30 business days",
-      "delete.h2removed": "Data we will delete",
-      "delete.pRemoved":
-        "When you delete your account, the following data we store is permanently removed:",
-      "delete.liEmailData": "Your email address",
-      "delete.liName":
-        "Your name (if you provided it when signing up or signing in with Apple or Google)",
-      "delete.liAuth": "Authentication data and sessions linked to your account",
-      "delete.h2kept": "Data we may retain",
-      "delete.pKept":
-        "For legal and operational reasons, we may keep some information for specific periods:",
-      "delete.liTx":
-        "<strong>Transaction information:</strong> If you made purchases or subscriptions in the app, we may keep the information required by law (for example, for tax purposes)",
-      "delete.liSecurity":
-        "<strong>Security logs:</strong> We may keep minimal records of suspicious or fraudulent activity to protect our services",
-      "delete.liAnon":
-        "<strong>Anonymized data:</strong> We may keep aggregated, anonymized data that does not identify any user",
-      "delete.h2period": "Retention period",
-      "delete.pPeriod": "After we receive your deletion request:",
-      "delete.li30":
-        "We will delete your account and personal data within <strong>30 business days</strong>",
-      "delete.liLegal":
-        "Data we must keep for legal reasons will be retained as required by applicable law",
-      "delete.liGone": "Once deleted, the data cannot be recovered",
-      "delete.h2more": "More information",
-      "delete.pMore":
-        "If you have questions about the deletion process or which data is removed or retained, contact us at:",
-      "delete.email": "Email:",
-      "delete.address": "Address:",
-      "delete.warn":
-        "<strong>⚠️ Important:</strong> Account deletion is permanent and irreversible. Make sure you really want to delete your account before you send the request.",
-      "delete.cta": "Request account deletion",
-      "delete.mailSubject": "Account Deletion Request",
     },
     pt: {
       "meta.home": "Revela2 — Verdades sem Filtro",
       "meta.terms": "Termos de Uso - Revela2",
       "meta.privacy": "Política de Privacidade - Revela2",
-      "meta.delete": "Excluir Conta - Revela2",
       "nav.terms": "Termos",
       "nav.privacy": "Privacidade",
       "nav.contact": "Contato",
@@ -300,56 +202,8 @@
         "Disponível no iOS e Android. Escolha um pack e comece o debate hoje à noite.",
       "footer.privacy": "Privacidade",
       "footer.terms": "Termos",
-      "footer.delete": "Excluir conta",
       "footer.contact": "Contato",
       "footer.copy": "Propriedade e operação de GGGAM Enterprises LLC",
-      "delete.h1": "Excluir Conta e Dados",
-      "delete.updated": "Última atualização: 4 de fevereiro de 2026",
-      "delete.h2request": "Pedido de exclusão de conta",
-      "delete.p1":
-        "Se quiser excluir sua conta do Revela2 e todos os dados associados, siga estes passos:",
-      "delete.h3steps": "Como excluir sua conta:",
-      "delete.step1":
-        '<strong>Envie um e-mail</strong> para <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> com o assunto "Pedido de exclusão de conta"',
-      "delete.step2":
-        "<strong>Inclua as seguintes informações</strong> no pedido:",
-      "delete.liEmail": "O e-mail associado à conta",
-      "delete.liConfirm":
-        "Uma confirmação de que você deseja excluir permanentemente a conta e todos os dados associados",
-      "delete.step3":
-        "<strong>Aguarde nossa confirmação</strong> — processaremos o pedido em até 30 dias úteis",
-      "delete.h2removed": "Dados que serão excluídos",
-      "delete.pRemoved":
-        "Ao excluir a conta, os seguintes dados que guardamos são removidos de forma permanente:",
-      "delete.liEmailData": "Seu endereço de e-mail",
-      "delete.liName":
-        "Seu nome (se você informou ao se cadastrar ou ao entrar com Apple ou Google)",
-      "delete.liAuth": "Dados de autenticação e sessões associados à sua conta",
-      "delete.h2kept": "Dados que podem ser retidos",
-      "delete.pKept":
-        "Por razões legais e operacionais, podemos manter certas informações por períodos específicos:",
-      "delete.liTx":
-        "<strong>Informações de transação:</strong> Se você fez compras ou assinaturas no app, podemos reter as informações exigidas por lei (por exemplo, fins fiscais)",
-      "delete.liSecurity":
-        "<strong>Registros de segurança:</strong> Podemos manter registros mínimos de atividades suspeitas ou fraudulentas para proteger nossos serviços",
-      "delete.liAnon":
-        "<strong>Dados anonimizados:</strong> Podemos conservar dados agregados e anonimizados que não identifiquem nenhum usuário",
-      "delete.h2period": "Período de retenção",
-      "delete.pPeriod": "Depois de recebermos o pedido de exclusão:",
-      "delete.li30":
-        "Excluiremos sua conta e dados pessoais em até <strong>30 dias úteis</strong>",
-      "delete.liLegal":
-        "Os dados que precisamos reter por razões legais serão conservados conforme a lei aplicável",
-      "delete.liGone": "Depois de excluídos, os dados não podem ser recuperados",
-      "delete.h2more": "Informações adicionais",
-      "delete.pMore":
-        "Se tiver dúvidas sobre o processo de exclusão ou sobre quais dados serão removidos ou retidos, fale conosco em:",
-      "delete.email": "E-mail:",
-      "delete.address": "Endereço:",
-      "delete.warn":
-        "<strong>⚠️ Importante:</strong> A exclusão da conta é permanente e irreversível. Tenha certeza de que realmente deseja excluir a conta antes de enviar o pedido.",
-      "delete.cta": "Solicitar exclusão da conta",
-      "delete.mailSubject": "Pedido de exclusão de conta",
     },
   };
 
@@ -453,13 +307,6 @@
       btn.classList.toggle("is-active", active);
       btn.setAttribute("aria-pressed", active ? "true" : "false");
     });
-
-    var mailCta = document.querySelector("[data-delete-mail]");
-    if (mailCta) {
-      mailCta.href =
-        "mailto:usarevela2@gmail.com?subject=" +
-        encodeURIComponent(t(lang, "delete.mailSubject"));
-    }
 
     var header = document.querySelector(".site-header");
     var toggle = document.querySelector(".nav-toggle");

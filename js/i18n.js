@@ -76,7 +76,7 @@
         "Sí. Revela2 Pro desbloquea todos los packs. Puedes cancelar cuando quieras desde la tienda de tu dispositivo.",
       "faq.q5": "¿Qué pasa con mi privacidad?",
       "faq.a5":
-        'No publicamos tus partidas. Si tienes dudas, escríbenos a <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> o revisa la <a href="politica-de-privacidad.html">política de privacidad</a>.',
+        'No publicamos tus partidas. Si tienes dudas, escríbenos a <a href="mailto:main@usalabia.com">main@usalabia.com</a> o revisa la <a href="politica-de-privacidad.html">política de privacidad</a>.',
       "cta.title": "Descarga Revela2 y saca la primera carta",
       "cta.sub":
         "Disponible en iOS y Android. Elige un pack y empieza el debate esta noche.",
@@ -136,7 +136,7 @@
         "Yes. Revela2 Pro unlocks every pack. You can cancel anytime from your device store.",
       "faq.q5": "What about my privacy?",
       "faq.a5":
-        'We don\'t publish your games. Questions? Email <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> or read the <a href="politica-de-privacidad.html">privacy policy</a>.',
+        'We don\'t publish your games. Questions? Email <a href="mailto:main@usalabia.com">main@usalabia.com</a> or read the <a href="politica-de-privacidad.html">privacy policy</a>.',
       "cta.title": "Download Revela2 and draw the first card",
       "cta.sub":
         "Available on iOS and Android. Pick a pack and start the debate tonight.",
@@ -196,7 +196,7 @@
         "Sim. O Revela2 Pro destrava todos os packs. Você pode cancelar quando quiser na loja do seu dispositivo.",
       "faq.q5": "E a minha privacidade?",
       "faq.a5":
-        'Não publicamos suas partidas. Dúvidas? Escreva para <a href="mailto:usarevela2@gmail.com">usarevela2@gmail.com</a> ou veja a <a href="politica-de-privacidad.html">política de privacidade</a>.',
+        'Não publicamos suas partidas. Dúvidas? Escreva para <a href="mailto:main@usalabia.com">main@usalabia.com</a> ou veja a <a href="politica-de-privacidad.html">política de privacidade</a>.',
       "cta.title": "Baixe o Revela2 e tire a primeira carta",
       "cta.sub":
         "Disponível no iOS e Android. Escolha um pack e comece o debate hoje à noite.",
@@ -306,6 +306,9 @@
       var active = btn.getAttribute("data-set-lang") === lang;
       btn.classList.toggle("is-active", active);
       btn.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+    document.querySelectorAll(".legal").forEach(function (block) {
+      block.hidden = block.getAttribute("lang") !== lang;
     });
 
     var header = document.querySelector(".site-header");

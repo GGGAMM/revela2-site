@@ -529,6 +529,10 @@ a {
   color: var(--accent);
 }
 
+.legal-body {
+  white-space: pre-line;
+}
+
 .delete-box {
   background: #201410;
   padding: 20px;
